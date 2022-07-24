@@ -414,7 +414,7 @@ const botzkir = "6289510497533@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya FαυȥყBOTZ - MD Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya IRFANBOT-MD Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttoons = [
 {buttonId: `$ allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
@@ -437,8 +437,8 @@ contextInfo: {
 "mediaType": 2, 
 "thumbnail": ktedh,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g',
-"sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
+"mediaUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8',
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}
 }
 sock.sendMessage(m.chat, buttonMessaage, { quoted: {
@@ -611,8 +611,8 @@ $ [ EXE ]
 
 */Stalker*
 ☻ ffstalk 1798408813
-☻ ghstalk FauziTioX
-☻ igstalk fauzitio_91
+☻ ghstalk Irfanff9
+☻ igstalk irfan_ff9
 ☻ npmstalk @adiwajshing/baileys
 
 */Downloader*
@@ -1445,7 +1445,7 @@ contextInfo: {
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
-"sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}
 }
 sock.sendMessage(m.chat, buttonMessages, { quoted: {
@@ -1484,7 +1484,7 @@ sock.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4',
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
-"sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}}, { quoted: m })
 }
 addCmd(command.slice(0), 1, commund)
@@ -1507,7 +1507,7 @@ sock.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mp4',
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
-"sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}}, { quoted: m })
 }
 addCmd(command.slice(0), 1, commund)
@@ -1543,7 +1543,7 @@ contextInfo: {
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
 "mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
-"sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
+"sourceUrl": 'https://chat.whatsapp.com/JZObD0euUnF2UknDp1UDn8'
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: {
